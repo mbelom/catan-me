@@ -17,12 +17,6 @@ test('gets employee name', () => {
     expect(employee.getName()).toEqual(expect.any(String));
 });
 
-// gets id from getId() 
-test('gets employee ID', () => {
-    const employee = new Employee('Marissa', 73,'mbelombre@gmail.com');
-
-    expect(employee.getId()).toEqual(expect.any(Number));
-});
 
 // receives emails from getEmail()
 test('gets employee email', () => {
